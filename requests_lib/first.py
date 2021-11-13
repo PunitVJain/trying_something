@@ -14,6 +14,7 @@ response = requests.get(url)
 res = requests.post(url)
 #print(res.url)
 #print(res.headers)
-print(res.text)
-
+# print(res.text)
+resp = requests.request('GET',url)
+print(resp.text)
 
