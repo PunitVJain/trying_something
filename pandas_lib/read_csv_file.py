@@ -1,6 +1,7 @@
 #  reading csv file with numpy
 
 import pandas as pd
+import os
 
 
 
@@ -16,6 +17,6 @@ class DataFromCSV:
         df = pd.read_csv(self.location)
         return df
 
-filelocation = r"C:\Users\Punit Jain\Desktop\stack-overflow-data.csv"
+filelocation = file_location
 dfcsv = DataFromCSV(filelocation, pd)
-print(dfcsv.read_csv_file()\)
+print(dfcsv.read_csv_file())
