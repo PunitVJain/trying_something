@@ -16,6 +16,6 @@ class DataFromCSV:
         df = pd.read_csv(self.location)
         return df
 
-filelocation = r"C:\Users\Punit Jain\Desktop\stack-overflow-data.csv"
+filelocation = filelocation # variable with env
 dfcsv = DataFromCSV(filelocation, pd)
 print(dfcsv.read_csv_file())
